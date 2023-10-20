@@ -12,6 +12,7 @@ h2 {
     justify-content: center;
     /* flex-end aligns items at the bottom of the flexbox */
     align-items: flex-end;
+    flex-wrap: wrap;
 }
 
 .flexbox1-item {
