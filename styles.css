@@ -1,0 +1,95 @@
+h2 {
+    margin-bottom: 5px;
+    font-weight: bold;
+    color: #094B6D;
+}
+
+/* Flexbox Container 1 */
+.flexbox-container-1 {
+    display: flex;
+    border: 2px dashed #88a925;
+    background-color: #094B6D;
+    justify-content: center;
+    /* flex-end aligns items at the bottom of the flexbox */
+    align-items: flex-end;
+}
+
+.flexbox1-item {
+    width: 200px;
+    margin: 10px;
+    border: 3px solid #88a925;
+    background-color: #dfdfdf;
+}
+
+.flexbox1-item-1 {
+    min-height: 100px;
+    /* Add flex-grow 1 to all items to make them all grow equally. 0 for no growth, 2 for more */
+    flex-grow: 1;
+    /* Set shrink to 0 to prevent shrinking when making window smaller */
+    flex-shrink: 0;
+    text-align: center;
+    font-size: 150%;
+
+    padding: 5px;
+}
+
+.flexbox1-item-2 {
+    min-height: 200px;
+    text-align: center;
+    font-size: 150%;
+    padding: 5px;
+    flex-grow: 1;
+}
+
+.flexbox1-item-3 {
+    min-height: 300px;
+    text-align: center;
+    font-size: 150%;
+    padding: 5px;
+    flex-grow: 1;
+}
+
+/* Flexbox Container 2*/
+.flexbox-container-2 {
+    display: flex;
+    border: 2px dashed #88a925;
+    background-color: #094B6D;
+    justify-content: center;
+    /* flex-start aligns items at the top of the flexbox */
+    align-items: flex-start;
+}
+
+.flexbox2-item {
+    width: 200px;
+    margin: 10px;
+    border: 3px solid #88a925;
+    background-color: #dfdfdf;
+}
+
+.flexbox2-item-1 {
+    min-height: 100px;
+    /* Add flex-grow 1 to all items to make them all grow equally. 0 for no growth, 2 for more */
+    flex-grow: 1;
+    /* Set shrink to 0 to prevent shrinking when making window smaller */
+    flex-shrink: 0;
+    text-align: center;
+    font-size: 150%;
+
+    padding: 5px;
+}
+
+.flexbox2-item-2 {
+    min-height: 200px;
+    text-align: center;
+    font-size: 150%;
+    padding: 5px;
+    flex-grow: 1;
+}
+
+.flexbox2-item-3 {
+    min-height: 300px;
+    text-align: center;
+    font-size: 150%;
+    padding: 5px;
+    flex-grow: 1;
+}
